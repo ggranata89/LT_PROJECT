@@ -1,0 +1,4 @@
+Istruzioni per la compilazione
+jflex es1.flex         -> Produce il file Lexer.java costituente lo scanner
+javac Lexer.java       -> Produce il file Lexer.class con il bytecode del programma
+java Lexer esempio.txt -> Utilizzo del programma sul file esempio.txt

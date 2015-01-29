@@ -1,0 +1,6 @@
+Istruzioni per la compilazione:
+jflex Es3.jflex	   -> Produce il file Yylex.java costituente lo scanner
+javac Yylex.java   -> Produce il file Yylex.class contenente il bytecode dello scanner
+javac Htmllib.java -> Produce il file Htmllib.class
+javac Main.java    -> Produce il file Es3.class contenente il Main del programma
+java Es3 esempio.c -> Utilizzo lo scanner sul file esempio.c
